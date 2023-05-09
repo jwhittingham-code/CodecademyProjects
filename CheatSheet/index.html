@@ -19,7 +19,33 @@
     <main>
         <article>
             <h2>Tables</h2>
-            
+            <p>&lt;table&gt; tags create a blank table</p>
+            <table>
+                <thead>
+                    <th colspan="3">&lt;thead&gt; is semantic html to group header elements</th>
+                </thead>
+                <tr>
+                    <th>&lt;th&gt; define headers per row</th>
+                    <td> &lt;tr&gt; tags create a new row in the table </td>
+                    <td> &lt;td&gt; tags create a new cell within that row </td>
+                </tr>
+                <tr>
+                    <th>&lt;th&gt; are also used in &lt;thead&gt;</th>
+                    <td colspan="2">using colspan in &lt;td&gt; will create a cell that spans a specified number of columns, in this case two</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td rowspan="2">rowspan does the same for rows, again in this case two</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td></td>
+                </tr>
+                <tfoot>
+                    <td colspan="3">&lt;tfoot&gt; is semantic html to group footer elements</td>
+                </tfoot>
+            </table>
         </article>
     </main>
 </body>
