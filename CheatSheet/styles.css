@@ -1,3 +1,13 @@
+/* * selects all elements */
+
+html {
+    margin: 25px, auto;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
 table, th {
     border: 2px solid black;
 }
@@ -8,4 +18,23 @@ td {
 
 table,th, td{
     border-collapse: collapse;
+    
+}
+
+table{
+    display: table;
+}
+
+#Tables{
+    margin: 20px, auto;
+}
+
+code{
+    background-color: black;
+    color: chartreuse;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    
+    
 }
